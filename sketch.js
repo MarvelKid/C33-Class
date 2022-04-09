@@ -72,8 +72,8 @@ function setup() {
  
   frameRate(80);
 
-  //bk_song.play();
- // bk_song.setVolume(0.5);
+  bk_song.play();
+  bk_song.setVolume(0.5);
 
   engine = Engine.create();
   world = engine.world;
